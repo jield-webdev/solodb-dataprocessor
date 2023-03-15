@@ -1,7 +1,6 @@
-## Sample API
+## SoloDB Data processor
 
-Currently only one endpoint is available, which is the /preprocessing/raman end point, which should provide some idea
-how the file exchange format could look like.
+This repository contains a python template in Docker to allow external data processing in SOloDB
 
 ### Python/Flask application
 
