@@ -1,0 +1,7 @@
+flask
+flask-restx
+numpy
+pandas
+scipy
+matplotlib
+python-dotenv
