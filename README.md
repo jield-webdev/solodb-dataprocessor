@@ -1,6 +1,6 @@
 ## SoloDB Data processor
 
-This repository contains a python template in Docker to allow external data processing in SOloDB
+This repository contains a python template in Docker to allow external data processing in SoloDB
 
 ### Python/Flask application
 
@@ -54,3 +54,9 @@ flask-web-1         "python3 app.py"    web                 running             
 
 After the application starts, navigate to `http://localhost:8000/doc` in your web browser to access the REST API
 documentation
+
+## Start development server (no docker)
+```shell
+cd app
+CACHE_DIR=cache python3.9 app.py
+```
